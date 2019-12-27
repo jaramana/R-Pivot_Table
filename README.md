@@ -11,7 +11,7 @@ library(reshape2)
 library(dplyr)
 
 # Set directory
-setwd("PATH/TO/DIRECTORY")
+setwd("/PATH/TO/DIRECTORY")
 
 # Load Data
 data = read.csv("green_tripdata_2019-06_SAMPLE.csv", stringsAsFactors = FALSE)
