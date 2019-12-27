@@ -2,7 +2,7 @@
 This script lets you summarize data tables into a "pivot table" as you would in Microsoft Excel.
 
 ## Motivation
-I was tasked with working with large datasets that would not work on Excel, and needed to be summarised. I had become comfortable using R and figured that there should be a way to do so in R. This script is based on [this tutorial](https://www.rforexcelusers.com/make-pivottable-in-r/) from John Taveras.
+I was tasked with working with large datasets that would not work on Excel, and needed to be summarized. I had become comfortable using R and figured that there should be a way to do so in R. This script is based on [this tutorial](https://www.rforexcelusers.com/make-pivottable-in-r/) from John Taveras.
 
 ## Code
 ```
@@ -25,5 +25,5 @@ data_pivot = summarise(data_pivot,
                        trip_distance_average = mean(trip_distance))
 
 # Write .csv
-write.csv(data_pivot,"green_tripdata_2019-06_summarised.csv", row.names = FALSE)
+write.csv(data_pivot,"green_tripdata_2019-06_summarized.csv", row.names = FALSE)
 ```
